@@ -79,8 +79,10 @@
                             (evil-snipe-enable-highlight)
                             (evil-snipe-enable-incremental-highlight))))))
 
-(setq projectile-project-search-path '("~/apps/"))
+(setq projectile-project-search-path '("~/apps"))
+(setq projectile-project-search-path '("~/go/src/github.com/autorei"))
+(setq projectile-project-search-path '("~/go/src/github.com/denislee"))
 (setq projectile-indexing-method 'native)
-(setq projectile-switch-project-action 'projectile-dired)
 
-(set-face-attribute 'default nil :height 85)
+;(setq projectile-switch-project-action 'projectile-dired)
+;(set-face-attribute 'default nil :height 85)
