@@ -1,0 +1,9 @@
+core/
+modules/
+bin/
+init.example.el
+init.test.el
+LICENSE
+Makefile
+CHANGELOG.org
+
